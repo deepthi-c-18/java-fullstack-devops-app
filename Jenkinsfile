@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Replace 'your_dockerhub_username' with your actual Docker Hub username
-        DOCKERHUB_USER = 'your_dockerhub_username'
+        DOCKERHUB_USER = 'deepthic18'
         IMAGE_NAME = 'my-nginx-app'
         IMAGE_TAG = 'v1'
         LATEST_TAG = 'latest'
