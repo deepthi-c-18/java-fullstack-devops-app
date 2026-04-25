@@ -70,7 +70,7 @@ pipeline {
                     }
                     
                     // Run the new container
-                    sh "docker run -d --name ${IMAGE_NAME}-container -p 8080:80 ${DOCKERHUB_USER}/${IMAGE_NAME}:${LATEST_TAG}"
+                    sh "docker run -d --name ${IMAGE_NAME}-container -p 9090:80 ${DOCKERHUB_USER}/${IMAGE_NAME}:${LATEST_TAG}"
                 }
             }
         }
