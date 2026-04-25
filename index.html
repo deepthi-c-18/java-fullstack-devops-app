@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps CI/CD Project</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    .container {
+      text-align: center;
+      padding: 50px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+      width: 80%;
+      max-width: 800px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #00f5a0, #00d9f5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #e0e0e0;
+    }
+
+    p {
+      font-size: 16px;
+      color: #cfcfcf;
+      margin-bottom: 25px;
+    }
+
+    .highlight {
+      color: #ffd166;
+      font-weight: bold;
+    }
+
+    .tags {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      padding: 10px 18px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .tag:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media(max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Welcome to My DevOps Project</h1>
+    <h2>Docker + Jenkins + Nginx CI/CD</h2>
+    <p><span class="highlight">Automated Deployment Pipeline</span> using containerization and continuous integration tools.</p>
+
+    <div class="tags">
+      <div class="tag">Docker</div>
+      <div class="tag">Nginx</div>
+      <div class="tag">Jenkins</div>
+      <div class="tag">CI/CD</div>
+    </div>
+
+    <footer>
+      Created by Deepthi C | DevOps Project
+    </footer>
+  </div>
+
+</body>
+</html>
