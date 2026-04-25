@@ -1,5 +1,5 @@
 pipeline {
-     agent { label 'docker' }
+     agent any
 
     environment {
         // Replace 'your_dockerhub_username' with your actual Docker Hub username
